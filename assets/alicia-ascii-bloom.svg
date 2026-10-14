@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="a-title a-desc">
+<title id="a-title">Alicia — technical artist and AI agent builder</title>
+<desc id="a-desc">Animated ASCII terminal title and four seasonal text-art botanicals. Script-free; respects reduced-motion preferences.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0A141B"/><stop offset="1" stop-color="#0D1820"/></linearGradient>
+ <linearGradient id="ink" x1="0" x2="1"><stop stop-color="#C6F1D5"/><stop offset=".55" stop-color="#DCECDD"/><stop offset="1" stop-color="#8FD1C2"/></linearGradient>
+ <clipPath id="crop"><rect x="640" y="88" width="330" height="214"/></clipPath>
+</defs>
+<style><![CDATA[
+ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+ .label{font-size:11px;letter-spacing:1.9px;fill:#708C91}
+ .small{font-size:12px;fill:#88AAAC}
+ .name{font-size:17.7px;letter-spacing:.6px;white-space:pre;fill:url(#ink);font-weight:bold}
+ .ascii{font-size:13.25px;white-space:pre}
+ .season{opacity:0}
+ .season.spring{opacity:1;animation:spring 24s infinite}
+ .season.summer{animation:summer 24s infinite}
+ .season.autumn{animation:autumn 24s infinite}
+ .season.winter{animation:winter 24s infinite}
+ @keyframes spring{0%,20%{opacity:1}25%,95%{opacity:0}100%{opacity:1}}
+ @keyframes summer{0%,20%{opacity:0}25%,45%{opacity:1}50%,100%{opacity:0}}
+ @keyframes autumn{0%,45%{opacity:0}50%,70%{opacity:1}75%,100%{opacity:0}}
+ @keyframes winter{0%,70%{opacity:0}75%,95%{opacity:1}100%{opacity:0}}
+ .flower{transform-box:fill-box;transform-origin:50% 90%;animation:sway 4.2s ease-in-out infinite}
+ .grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow 24s ease-out infinite}
+ .summer .grow{animation-delay:6s}
+ .autumn .grow{animation-delay:12s}
+ .winter .grow{animation-delay:18s}
+ @keyframes grow{0%{transform:scaleY(.03);opacity:.3}8%,100%{transform:scaleY(1);opacity:1}}
+ @keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+ .cursor{animation:blink 1.2s steps(2,start) infinite}
+ @keyframes blink{0%,48%{opacity:1}50%,100%{opacity:0}}
+ .sparkA{animation:moveA 4s ease-in-out infinite}
+ .sparkB{animation:moveB 5s ease-in-out infinite}
+ @keyframes moveA{0%,100%{transform:translate(0,1px);opacity:.25}50%{transform:translate(2px,-7px);opacity:.8}}
+ @keyframes moveB{0%,100%{transform:translate(0,-3px);opacity:.7}50%{transform:translate(-3px,6px);opacity:.22}}
+ @media(prefers-reduced-motion:reduce){
+ .season,.flower,.grow,.cursor,.sparkA,.sparkB{animation:none!important;transform:none!important}
+ .season.spring{opacity:1}.season.summer,.season.autumn,.season.winter{opacity:0}.cursor{opacity:1}
+ }
+]]></style>
+<rect width="1000" height="330" rx="14" fill="url(#bg)"/>
+<rect x=".8" y=".8" width="998.4" height="328.4" rx="13" stroke="#31504C" stroke-opacity=".75" stroke-width="1.5" fill="none"/>
+<circle cx="30" cy="25" r="4.5" fill="#B6766F"/><circle cx="47" cy="25" r="4.5" fill="#D8AF6F"/><circle cx="64" cy="25" r="4.5" fill="#74BBA9"/>
+<text class="small" x="84" y="29">alicia@digitalgarden:~</text>
+<text class="small" x="963" y="29" text-anchor="end">[ ASCII / 01 ]</text>
+<path d="M20 43 H980" stroke="#274047"/>
+<text x="49" y="75" font-size="11" letter-spacing="2.2" fill="#B1DABC">// ART IN CODE. CODE IN BLOOM.</text>
+<text class="name" x="48" y="107" xml:space="preserve">  ##    #       #####   ####   #####    ##  </text>
+<text class="name" x="48" y="129" xml:space="preserve"> #  #   #         #    #    #    #     #  # </text>
+<text class="name" x="48" y="151" xml:space="preserve">#    #  #         #    #         #    #    #</text>
+<text class="name" x="48" y="173" xml:space="preserve">#    #  #         #    #         #    #    #</text>
+<text class="name" x="48" y="195" xml:space="preserve">######  #         #    #         #    ######</text>
+<text class="name" x="48" y="217" xml:space="preserve">#    #  ######    #    #    #    #    #    #</text>
+<text class="name" x="48" y="239" xml:space="preserve">#    #  ######  #####   ####   #####  #    #</text>
+<text x="49" y="270" font-size="15" fill="#E6E8DF">technical artist</text>
+<text x="214" y="270" font-size="13" fill="#597E80">/</text>
+<text x="230" y="270" font-size="15" fill="#D0DFD4">AI agent builder</text>
+<text x="49" y="296" font-size="12.8" fill="#9AB4B3">&gt; making procedural worlds feel alive</text>
+<text class="cursor" x="381" y="296" font-size="15" fill="#7FE5B3">_</text>
+<text x="595" y="176" font-size="17" fill="#2C544C">:</text>
+<text x="595" y="193" font-size="17" fill="#2C544C">:</text>
+<text x="595" y="210" font-size="17" fill="#2C544C">:</text>
+<text class="label" x="649" y="67">// ASCII BOTANICALS</text>
+<text class="label" x="649" y="307">GENERATIVE NATURE - 4 SEASONS</text>
+<g class="sparkA" fill="#83D4B0" font-size="11"><text x="629" y="133">+</text><text x="931" y="126">.</text><text x="941" y="253">*</text></g>
+<g class="sparkB" fill="#C9C897" font-size="12"><text x="635" y="240">.</text><text x="949" y="182">+</text><text x="914" y="87">.</text></g>
+<g class="season spring"><text x="650" y="91" font-size="12.5" fill="#80DDAD" letter-spacing="1.2">&gt; spring / lily_of_the_valley</text><g class="flower" clip-path="url(#crop)" fill="#80DDAD"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.           .</text><text class="ascii" x="670" y="122.4" xml:space="preserve">           / \         / \</text><text class="ascii" x="670" y="135.8" xml:space="preserve">       .  /   \     .-'   \</text><text class="ascii" x="670" y="149.2" xml:space="preserve">        \|     \   (  .-.)</text><text class="ascii" x="670" y="162.6" xml:space="preserve">         ||     '---(   )</text><text class="ascii" x="670" y="176.0" xml:space="preserve">         ||           '-'</text><text class="ascii" x="670" y="189.4" xml:space="preserve">    .--. ||    .--.</text><text class="ascii" x="670" y="202.8" xml:space="preserve">   (    )||   (    )</text><text class="ascii" x="670" y="216.2" xml:space="preserve">    '--' \|    '--'</text><text class="ascii" x="670" y="229.6" xml:space="preserve">          | \</text><text class="ascii" x="670" y="243.0" xml:space="preserve">          |  \    /\</text><text class="ascii" x="670" y="256.4" xml:space="preserve">          |   '---'/</text><text class="ascii" x="670" y="269.8" xml:space="preserve">      __ /|\ __</text><text class="ascii" x="670" y="283.2" xml:space="preserve">         / \</text></g></g></g>
+<g class="season summer"><text x="650" y="91" font-size="12.5" fill="#83C9FA" letter-spacing="1.2">&gt; summer / dandelion</text><g class="flower" clip-path="url(#crop)" fill="#83C9FA"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.    +    .   *</text><text class="ascii" x="670" y="122.4" xml:space="preserve">     *    \  |  /    .</text><text class="ascii" x="670" y="135.8" xml:space="preserve">         . \ | /  +</text><text class="ascii" x="670" y="149.2" xml:space="preserve">    .  --\-\|/--  *</text><text class="ascii" x="670" y="162.6" xml:space="preserve">      ---.-- @ --.---</text><text class="ascii" x="670" y="176.0" xml:space="preserve">   +    --/ /|\  --</text><text class="ascii" x="670" y="189.4" xml:space="preserve">      .  / / | \    .</text><text class="ascii" x="670" y="202.8" xml:space="preserve">     *   /   |  \ +</text><text class="ascii" x="670" y="216.2" xml:space="preserve">        .    |   *</text><text class="ascii" x="670" y="229.6" xml:space="preserve">             |</text><text class="ascii" x="670" y="243.0" xml:space="preserve">            /|</text><text class="ascii" x="670" y="256.4" xml:space="preserve">       ____/ | \___</text><text class="ascii" x="670" y="269.8" xml:space="preserve">             |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">            / \</text></g></g></g>
+<g class="season autumn"><text x="650" y="91" font-size="12.5" fill="#F4C371" letter-spacing="1.2">&gt; autumn / sunflower</text><g class="flower" clip-path="url(#crop)" fill="#F4C371"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">\  |  /</text><text class="ascii" x="670" y="122.4" xml:space="preserve">        --\ \ | / /--</text><text class="ascii" x="670" y="135.8" xml:space="preserve">           .-***-.</text><text class="ascii" x="670" y="149.2" xml:space="preserve">    --    /*******\   --</text><text class="ascii" x="670" y="162.6" xml:space="preserve">         |***@@@***|</text><text class="ascii" x="670" y="176.0" xml:space="preserve">    --    \******* /   --</text><text class="ascii" x="670" y="189.4" xml:space="preserve">           '-***-'</text><text class="ascii" x="670" y="202.8" xml:space="preserve">        --/ / | \ \--</text><text class="ascii" x="670" y="216.2" xml:space="preserve">           /  |  \</text><text class="ascii" x="670" y="229.6" xml:space="preserve">              |</text><text class="ascii" x="670" y="243.0" xml:space="preserve">             /|\</text><text class="ascii" x="670" y="256.4" xml:space="preserve">       ____ / | \ ___</text><text class="ascii" x="670" y="269.8" xml:space="preserve">              |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">             / \</text></g></g></g>
+<g class="season winter"><text x="650" y="91" font-size="12.5" fill="#D0DEE9" letter-spacing="1.2">&gt; winter / camellia</text><g class="flower" clip-path="url(#crop)" fill="#D0DEE9"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.-''''-.</text><text class="ascii" x="670" y="122.4" xml:space="preserve">         .-'  .--.  '-.</text><text class="ascii" x="670" y="135.8" xml:space="preserve">        /   .' ** '.   \</text><text class="ascii" x="670" y="149.2" xml:space="preserve">       /   /  (  ) \   \</text><text class="ascii" x="670" y="162.6" xml:space="preserve">       |  |  ((  )) |  |</text><text class="ascii" x="670" y="176.0" xml:space="preserve">        \  \  (  ) /  /</text><text class="ascii" x="670" y="189.4" xml:space="preserve">         '-. '.__.' .-'</text><text class="ascii" x="670" y="202.8" xml:space="preserve">            '-.__.-'</text><text class="ascii" x="670" y="216.2" xml:space="preserve">               |</text><text class="ascii" x="670" y="229.6" xml:space="preserve">          ___ /|\ ___</text><text class="ascii" x="670" y="243.0" xml:space="preserve">             / | \</text><text class="ascii" x="670" y="256.4" xml:space="preserve">               |</text><text class="ascii" x="670" y="269.8" xml:space="preserve">               |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">              / \</text></g></g></g>
+</svg>
