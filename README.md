@@ -1,6 +1,4 @@
-# Hi, I'm Alicia 👋
-
-**Technical Artist · AI Agent Builder · Creative Coder**
+<p align="center"><img src="./assets/alicia-ascii-bloom.svg" alt="ALICIA ASCII terminal banner: four seasonal botanical animations representing a creative technology practice" width="100%"></p>
 
 ```text
 $ whoami
