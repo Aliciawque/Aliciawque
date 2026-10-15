@@ -22,11 +22,11 @@
  @keyframes autumn{0%,45%{opacity:0}50%,70%{opacity:1}75%,100%{opacity:0}}
  @keyframes winter{0%,70%{opacity:0}75%,95%{opacity:1}100%{opacity:0}}
  .flower{transform-box:fill-box;transform-origin:50% 90%;animation:sway 4.2s ease-in-out infinite}
- .grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow 24s ease-out infinite}
- .summer .grow{animation-delay:6s}
- .autumn .grow{animation-delay:12s}
- .winter .grow{animation-delay:18s}
- @keyframes grow{0%{transform:scaleY(.03);opacity:.3}8%,100%{transform:scaleY(1);opacity:1}}
+ .grow{transform:none}
+ 
+ 
+ 
+ 
  @keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
  .cursor{animation:blink 1.2s steps(2,start) infinite}
  @keyframes blink{0%,48%{opacity:1}50%,100%{opacity:0}}
@@ -38,12 +38,128 @@
  .season,.flower,.grow,.cursor,.sparkA,.sparkB{animation:none!important;transform:none!important}
  .season.spring{opacity:1}.season.summer,.season.autumn,.season.winter{opacity:0}.cursor{opacity:1}
  }
+
+/* Roots-to-flower ASCII reveal: one independently animated character row at a time. */
+.sprout_spring_0{animation:sprout_spring_0 24s linear infinite;}
+@keyframes sprout_spring_0{0%,5.27%{opacity:0} 5.72%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_1{animation:sprout_spring_1 24s linear infinite;}
+@keyframes sprout_spring_1{0%,4.88%{opacity:0} 5.33%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_2{animation:sprout_spring_2 24s linear infinite;}
+@keyframes sprout_spring_2{0%,4.49%{opacity:0} 4.94%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_3{animation:sprout_spring_3 24s linear infinite;}
+@keyframes sprout_spring_3{0%,4.10%{opacity:0} 4.55%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_4{animation:sprout_spring_4 24s linear infinite;}
+@keyframes sprout_spring_4{0%,3.71%{opacity:0} 4.16%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_5{animation:sprout_spring_5 24s linear infinite;}
+@keyframes sprout_spring_5{0%,3.32%{opacity:0} 3.77%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_6{animation:sprout_spring_6 24s linear infinite;}
+@keyframes sprout_spring_6{0%,2.93%{opacity:0} 3.38%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_7{animation:sprout_spring_7 24s linear infinite;}
+@keyframes sprout_spring_7{0%,2.54%{opacity:0} 2.99%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_8{animation:sprout_spring_8 24s linear infinite;}
+@keyframes sprout_spring_8{0%,2.15%{opacity:0} 2.60%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_9{animation:sprout_spring_9 24s linear infinite;}
+@keyframes sprout_spring_9{0%,1.76%{opacity:0} 2.21%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_10{animation:sprout_spring_10 24s linear infinite;}
+@keyframes sprout_spring_10{0%,1.37%{opacity:0} 1.82%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_11{animation:sprout_spring_11 24s linear infinite;}
+@keyframes sprout_spring_11{0%,0.98%{opacity:0} 1.43%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_12{animation:sprout_spring_12 24s linear infinite;}
+@keyframes sprout_spring_12{0%,0.59%{opacity:0} 1.04%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_spring_13{animation:sprout_spring_13 24s linear infinite;}
+@keyframes sprout_spring_13{0%,0.20%{opacity:0} 0.65%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_0{animation:sprout_summer_0 24s linear infinite;}
+@keyframes sprout_summer_0{0%,30.27%{opacity:0} 30.72%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_1{animation:sprout_summer_1 24s linear infinite;}
+@keyframes sprout_summer_1{0%,29.88%{opacity:0} 30.33%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_2{animation:sprout_summer_2 24s linear infinite;}
+@keyframes sprout_summer_2{0%,29.49%{opacity:0} 29.94%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_3{animation:sprout_summer_3 24s linear infinite;}
+@keyframes sprout_summer_3{0%,29.10%{opacity:0} 29.55%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_4{animation:sprout_summer_4 24s linear infinite;}
+@keyframes sprout_summer_4{0%,28.71%{opacity:0} 29.16%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_5{animation:sprout_summer_5 24s linear infinite;}
+@keyframes sprout_summer_5{0%,28.32%{opacity:0} 28.77%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_6{animation:sprout_summer_6 24s linear infinite;}
+@keyframes sprout_summer_6{0%,27.93%{opacity:0} 28.38%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_7{animation:sprout_summer_7 24s linear infinite;}
+@keyframes sprout_summer_7{0%,27.54%{opacity:0} 27.99%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_8{animation:sprout_summer_8 24s linear infinite;}
+@keyframes sprout_summer_8{0%,27.15%{opacity:0} 27.60%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_9{animation:sprout_summer_9 24s linear infinite;}
+@keyframes sprout_summer_9{0%,26.76%{opacity:0} 27.21%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_10{animation:sprout_summer_10 24s linear infinite;}
+@keyframes sprout_summer_10{0%,26.37%{opacity:0} 26.82%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_11{animation:sprout_summer_11 24s linear infinite;}
+@keyframes sprout_summer_11{0%,25.98%{opacity:0} 26.43%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_12{animation:sprout_summer_12 24s linear infinite;}
+@keyframes sprout_summer_12{0%,25.59%{opacity:0} 26.04%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_summer_13{animation:sprout_summer_13 24s linear infinite;}
+@keyframes sprout_summer_13{0%,25.20%{opacity:0} 25.65%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_0{animation:sprout_autumn_0 24s linear infinite;}
+@keyframes sprout_autumn_0{0%,55.27%{opacity:0} 55.72%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_1{animation:sprout_autumn_1 24s linear infinite;}
+@keyframes sprout_autumn_1{0%,54.88%{opacity:0} 55.33%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_2{animation:sprout_autumn_2 24s linear infinite;}
+@keyframes sprout_autumn_2{0%,54.49%{opacity:0} 54.94%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_3{animation:sprout_autumn_3 24s linear infinite;}
+@keyframes sprout_autumn_3{0%,54.10%{opacity:0} 54.55%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_4{animation:sprout_autumn_4 24s linear infinite;}
+@keyframes sprout_autumn_4{0%,53.71%{opacity:0} 54.16%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_5{animation:sprout_autumn_5 24s linear infinite;}
+@keyframes sprout_autumn_5{0%,53.32%{opacity:0} 53.77%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_6{animation:sprout_autumn_6 24s linear infinite;}
+@keyframes sprout_autumn_6{0%,52.93%{opacity:0} 53.38%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_7{animation:sprout_autumn_7 24s linear infinite;}
+@keyframes sprout_autumn_7{0%,52.54%{opacity:0} 52.99%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_8{animation:sprout_autumn_8 24s linear infinite;}
+@keyframes sprout_autumn_8{0%,52.15%{opacity:0} 52.60%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_9{animation:sprout_autumn_9 24s linear infinite;}
+@keyframes sprout_autumn_9{0%,51.76%{opacity:0} 52.21%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_10{animation:sprout_autumn_10 24s linear infinite;}
+@keyframes sprout_autumn_10{0%,51.37%{opacity:0} 51.82%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_11{animation:sprout_autumn_11 24s linear infinite;}
+@keyframes sprout_autumn_11{0%,50.98%{opacity:0} 51.43%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_12{animation:sprout_autumn_12 24s linear infinite;}
+@keyframes sprout_autumn_12{0%,50.59%{opacity:0} 51.04%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_autumn_13{animation:sprout_autumn_13 24s linear infinite;}
+@keyframes sprout_autumn_13{0%,50.20%{opacity:0} 50.65%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_0{animation:sprout_winter_0 24s linear infinite;}
+@keyframes sprout_winter_0{0%,80.27%{opacity:0} 80.72%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_1{animation:sprout_winter_1 24s linear infinite;}
+@keyframes sprout_winter_1{0%,79.88%{opacity:0} 80.33%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_2{animation:sprout_winter_2 24s linear infinite;}
+@keyframes sprout_winter_2{0%,79.49%{opacity:0} 79.94%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_3{animation:sprout_winter_3 24s linear infinite;}
+@keyframes sprout_winter_3{0%,79.10%{opacity:0} 79.55%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_4{animation:sprout_winter_4 24s linear infinite;}
+@keyframes sprout_winter_4{0%,78.71%{opacity:0} 79.16%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_5{animation:sprout_winter_5 24s linear infinite;}
+@keyframes sprout_winter_5{0%,78.32%{opacity:0} 78.77%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_6{animation:sprout_winter_6 24s linear infinite;}
+@keyframes sprout_winter_6{0%,77.93%{opacity:0} 78.38%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_7{animation:sprout_winter_7 24s linear infinite;}
+@keyframes sprout_winter_7{0%,77.54%{opacity:0} 77.99%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_8{animation:sprout_winter_8 24s linear infinite;}
+@keyframes sprout_winter_8{0%,77.15%{opacity:0} 77.60%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_9{animation:sprout_winter_9 24s linear infinite;}
+@keyframes sprout_winter_9{0%,76.76%{opacity:0} 77.21%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_10{animation:sprout_winter_10 24s linear infinite;}
+@keyframes sprout_winter_10{0%,76.37%{opacity:0} 76.82%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_11{animation:sprout_winter_11 24s linear infinite;}
+@keyframes sprout_winter_11{0%,75.98%{opacity:0} 76.43%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_12{animation:sprout_winter_12 24s linear infinite;}
+@keyframes sprout_winter_12{0%,75.59%{opacity:0} 76.04%,99.9%{opacity:1} 100%{opacity:0}}
+.sprout_winter_13{animation:sprout_winter_13 24s linear infinite;}
+@keyframes sprout_winter_13{0%,75.20%{opacity:0} 75.65%,99.9%{opacity:1} 100%{opacity:0}}
+
+@media(prefers-reduced-motion:reduce){.sprout{animation:none!important;opacity:1!important}}
 ]]></style>
 <rect width="1000" height="330" rx="14" fill="url(#bg)"/>
 <rect x=".8" y=".8" width="998.4" height="328.4" rx="13" stroke="#31504C" stroke-opacity=".75" stroke-width="1.5" fill="none"/>
 <circle cx="30" cy="25" r="4.5" fill="#B6766F"/><circle cx="47" cy="25" r="4.5" fill="#D8AF6F"/><circle cx="64" cy="25" r="4.5" fill="#74BBA9"/>
 <text class="small" x="84" y="29">alicia@digitalgarden:~</text>
-<text class="small" x="963" y="29" text-anchor="end">[ ASCII / 01 ]</text>
+<text class="small" x="963" y="29" text-anchor="end">[ ASCII / 02 ]</text>
 <path d="M20 43 H980" stroke="#274047"/>
 <text x="49" y="75" font-size="11" letter-spacing="2.2" fill="#B1DABC">// ART IN CODE. CODE IN BLOOM.</text>
 <text class="name" x="48" y="107" xml:space="preserve">  ##    #       #####   ####   #####    ##  </text>
@@ -65,8 +181,8 @@
 <text class="label" x="649" y="307">GENERATIVE NATURE - 4 SEASONS</text>
 <g class="sparkA" fill="#83D4B0" font-size="11"><text x="629" y="133">+</text><text x="931" y="126">.</text><text x="941" y="253">*</text></g>
 <g class="sparkB" fill="#C9C897" font-size="12"><text x="635" y="240">.</text><text x="949" y="182">+</text><text x="914" y="87">.</text></g>
-<g class="season spring"><text x="650" y="91" font-size="12.5" fill="#80DDAD" letter-spacing="1.2">&gt; spring / lily_of_the_valley</text><g class="flower" clip-path="url(#crop)" fill="#80DDAD"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.           .</text><text class="ascii" x="670" y="122.4" xml:space="preserve">           / \         / \</text><text class="ascii" x="670" y="135.8" xml:space="preserve">       .  /   \     .-'   \</text><text class="ascii" x="670" y="149.2" xml:space="preserve">        \|     \   (  .-.)</text><text class="ascii" x="670" y="162.6" xml:space="preserve">         ||     '---(   )</text><text class="ascii" x="670" y="176.0" xml:space="preserve">         ||           '-'</text><text class="ascii" x="670" y="189.4" xml:space="preserve">    .--. ||    .--.</text><text class="ascii" x="670" y="202.8" xml:space="preserve">   (    )||   (    )</text><text class="ascii" x="670" y="216.2" xml:space="preserve">    '--' \|    '--'</text><text class="ascii" x="670" y="229.6" xml:space="preserve">          | \</text><text class="ascii" x="670" y="243.0" xml:space="preserve">          |  \    /\</text><text class="ascii" x="670" y="256.4" xml:space="preserve">          |   '---'/</text><text class="ascii" x="670" y="269.8" xml:space="preserve">      __ /|\ __</text><text class="ascii" x="670" y="283.2" xml:space="preserve">         / \</text></g></g></g>
-<g class="season summer"><text x="650" y="91" font-size="12.5" fill="#83C9FA" letter-spacing="1.2">&gt; summer / dandelion</text><g class="flower" clip-path="url(#crop)" fill="#83C9FA"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.    +    .   *</text><text class="ascii" x="670" y="122.4" xml:space="preserve">     *    \  |  /    .</text><text class="ascii" x="670" y="135.8" xml:space="preserve">         . \ | /  +</text><text class="ascii" x="670" y="149.2" xml:space="preserve">    .  --\-\|/--  *</text><text class="ascii" x="670" y="162.6" xml:space="preserve">      ---.-- @ --.---</text><text class="ascii" x="670" y="176.0" xml:space="preserve">   +    --/ /|\  --</text><text class="ascii" x="670" y="189.4" xml:space="preserve">      .  / / | \    .</text><text class="ascii" x="670" y="202.8" xml:space="preserve">     *   /   |  \ +</text><text class="ascii" x="670" y="216.2" xml:space="preserve">        .    |   *</text><text class="ascii" x="670" y="229.6" xml:space="preserve">             |</text><text class="ascii" x="670" y="243.0" xml:space="preserve">            /|</text><text class="ascii" x="670" y="256.4" xml:space="preserve">       ____/ | \___</text><text class="ascii" x="670" y="269.8" xml:space="preserve">             |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">            / \</text></g></g></g>
-<g class="season autumn"><text x="650" y="91" font-size="12.5" fill="#F4C371" letter-spacing="1.2">&gt; autumn / sunflower</text><g class="flower" clip-path="url(#crop)" fill="#F4C371"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">\  |  /</text><text class="ascii" x="670" y="122.4" xml:space="preserve">        --\ \ | / /--</text><text class="ascii" x="670" y="135.8" xml:space="preserve">           .-***-.</text><text class="ascii" x="670" y="149.2" xml:space="preserve">    --    /*******\   --</text><text class="ascii" x="670" y="162.6" xml:space="preserve">         |***@@@***|</text><text class="ascii" x="670" y="176.0" xml:space="preserve">    --    \******* /   --</text><text class="ascii" x="670" y="189.4" xml:space="preserve">           '-***-'</text><text class="ascii" x="670" y="202.8" xml:space="preserve">        --/ / | \ \--</text><text class="ascii" x="670" y="216.2" xml:space="preserve">           /  |  \</text><text class="ascii" x="670" y="229.6" xml:space="preserve">              |</text><text class="ascii" x="670" y="243.0" xml:space="preserve">             /|\</text><text class="ascii" x="670" y="256.4" xml:space="preserve">       ____ / | \ ___</text><text class="ascii" x="670" y="269.8" xml:space="preserve">              |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">             / \</text></g></g></g>
-<g class="season winter"><text x="650" y="91" font-size="12.5" fill="#D0DEE9" letter-spacing="1.2">&gt; winter / camellia</text><g class="flower" clip-path="url(#crop)" fill="#D0DEE9"><g class="grow"><text class="ascii" x="670" y="109.0" xml:space="preserve">.-''''-.</text><text class="ascii" x="670" y="122.4" xml:space="preserve">         .-'  .--.  '-.</text><text class="ascii" x="670" y="135.8" xml:space="preserve">        /   .' ** '.   \</text><text class="ascii" x="670" y="149.2" xml:space="preserve">       /   /  (  ) \   \</text><text class="ascii" x="670" y="162.6" xml:space="preserve">       |  |  ((  )) |  |</text><text class="ascii" x="670" y="176.0" xml:space="preserve">        \  \  (  ) /  /</text><text class="ascii" x="670" y="189.4" xml:space="preserve">         '-. '.__.' .-'</text><text class="ascii" x="670" y="202.8" xml:space="preserve">            '-.__.-'</text><text class="ascii" x="670" y="216.2" xml:space="preserve">               |</text><text class="ascii" x="670" y="229.6" xml:space="preserve">          ___ /|\ ___</text><text class="ascii" x="670" y="243.0" xml:space="preserve">             / | \</text><text class="ascii" x="670" y="256.4" xml:space="preserve">               |</text><text class="ascii" x="670" y="269.8" xml:space="preserve">               |</text><text class="ascii" x="670" y="283.2" xml:space="preserve">              / \</text></g></g></g>
+<g class="season spring"><text x="650" y="91" font-size="12.5" fill="#80DDAD" letter-spacing="1.2">&gt; spring / lily_of_the_valley</text><g class="flower" clip-path="url(#crop)" fill="#80DDAD"><g class="grow"><text class="ascii sprout sprout_spring_0" x="670" y="109.0" xml:space="preserve">.           .</text><text class="ascii sprout sprout_spring_1" x="670" y="122.4" xml:space="preserve">           / \         / \</text><text class="ascii sprout sprout_spring_2" x="670" y="135.8" xml:space="preserve">       .  /   \     .-'   \</text><text class="ascii sprout sprout_spring_3" x="670" y="149.2" xml:space="preserve">        \|     \   (  .-.)</text><text class="ascii sprout sprout_spring_4" x="670" y="162.6" xml:space="preserve">         ||     '---(   )</text><text class="ascii sprout sprout_spring_5" x="670" y="176.0" xml:space="preserve">         ||           '-'</text><text class="ascii sprout sprout_spring_6" x="670" y="189.4" xml:space="preserve">    .--. ||    .--.</text><text class="ascii sprout sprout_spring_7" x="670" y="202.8" xml:space="preserve">   (    )||   (    )</text><text class="ascii sprout sprout_spring_8" x="670" y="216.2" xml:space="preserve">    '--' \|    '--'</text><text class="ascii sprout sprout_spring_9" x="670" y="229.6" xml:space="preserve">          | \</text><text class="ascii sprout sprout_spring_10" x="670" y="243.0" xml:space="preserve">          |  \    /\</text><text class="ascii sprout sprout_spring_11" x="670" y="256.4" xml:space="preserve">          |   '---'/</text><text class="ascii sprout sprout_spring_12" x="670" y="269.8" xml:space="preserve">      __ /|\ __</text><text class="ascii sprout sprout_spring_13" x="670" y="283.2" xml:space="preserve">         / \</text></g></g></g>
+<g class="season summer"><text x="650" y="91" font-size="12.5" fill="#83C9FA" letter-spacing="1.2">&gt; summer / dandelion</text><g class="flower" clip-path="url(#crop)" fill="#83C9FA"><g class="grow"><text class="ascii sprout sprout_summer_0" x="670" y="109.0" xml:space="preserve">.    +    .   *</text><text class="ascii sprout sprout_summer_1" x="670" y="122.4" xml:space="preserve">     *    \  |  /    .</text><text class="ascii sprout sprout_summer_2" x="670" y="135.8" xml:space="preserve">         . \ | /  +</text><text class="ascii sprout sprout_summer_3" x="670" y="149.2" xml:space="preserve">    .  --\-\|/--  *</text><text class="ascii sprout sprout_summer_4" x="670" y="162.6" xml:space="preserve">      ---.-- @ --.---</text><text class="ascii sprout sprout_summer_5" x="670" y="176.0" xml:space="preserve">   +    --/ /|\  --</text><text class="ascii sprout sprout_summer_6" x="670" y="189.4" xml:space="preserve">      .  / / | \    .</text><text class="ascii sprout sprout_summer_7" x="670" y="202.8" xml:space="preserve">     *   /   |  \ +</text><text class="ascii sprout sprout_summer_8" x="670" y="216.2" xml:space="preserve">        .    |   *</text><text class="ascii sprout sprout_summer_9" x="670" y="229.6" xml:space="preserve">             |</text><text class="ascii sprout sprout_summer_10" x="670" y="243.0" xml:space="preserve">            /|</text><text class="ascii sprout sprout_summer_11" x="670" y="256.4" xml:space="preserve">       ____/ | \___</text><text class="ascii sprout sprout_summer_12" x="670" y="269.8" xml:space="preserve">             |</text><text class="ascii sprout sprout_summer_13" x="670" y="283.2" xml:space="preserve">            / \</text></g></g></g>
+<g class="season autumn"><text x="650" y="91" font-size="12.5" fill="#F4C371" letter-spacing="1.2">&gt; autumn / sunflower</text><g class="flower" clip-path="url(#crop)" fill="#F4C371"><g class="grow"><text class="ascii sprout sprout_autumn_0" x="670" y="109.0" xml:space="preserve">\  |  /</text><text class="ascii sprout sprout_autumn_1" x="670" y="122.4" xml:space="preserve">        --\ \ | / /--</text><text class="ascii sprout sprout_autumn_2" x="670" y="135.8" xml:space="preserve">           .-***-.</text><text class="ascii sprout sprout_autumn_3" x="670" y="149.2" xml:space="preserve">    --    /*******\   --</text><text class="ascii sprout sprout_autumn_4" x="670" y="162.6" xml:space="preserve">         |***@@@***|</text><text class="ascii sprout sprout_autumn_5" x="670" y="176.0" xml:space="preserve">    --    \******* /   --</text><text class="ascii sprout sprout_autumn_6" x="670" y="189.4" xml:space="preserve">           '-***-'</text><text class="ascii sprout sprout_autumn_7" x="670" y="202.8" xml:space="preserve">        --/ / | \ \--</text><text class="ascii sprout sprout_autumn_8" x="670" y="216.2" xml:space="preserve">           /  |  \</text><text class="ascii sprout sprout_autumn_9" x="670" y="229.6" xml:space="preserve">              |</text><text class="ascii sprout sprout_autumn_10" x="670" y="243.0" xml:space="preserve">             /|\</text><text class="ascii sprout sprout_autumn_11" x="670" y="256.4" xml:space="preserve">       ____ / | \ ___</text><text class="ascii sprout sprout_autumn_12" x="670" y="269.8" xml:space="preserve">              |</text><text class="ascii sprout sprout_autumn_13" x="670" y="283.2" xml:space="preserve">             / \</text></g></g></g>
+<g class="season winter"><text x="650" y="91" font-size="12.5" fill="#D0DEE9" letter-spacing="1.2">&gt; winter / camellia</text><g class="flower" clip-path="url(#crop)" fill="#D0DEE9"><g class="grow"><text class="ascii sprout sprout_winter_0" x="670" y="109.0" xml:space="preserve">.-''''-.</text><text class="ascii sprout sprout_winter_1" x="670" y="122.4" xml:space="preserve">         .-'  .--.  '-.</text><text class="ascii sprout sprout_winter_2" x="670" y="135.8" xml:space="preserve">        /   .' ** '.   \</text><text class="ascii sprout sprout_winter_3" x="670" y="149.2" xml:space="preserve">       /   /  (  ) \   \</text><text class="ascii sprout sprout_winter_4" x="670" y="162.6" xml:space="preserve">       |  |  ((  )) |  |</text><text class="ascii sprout sprout_winter_5" x="670" y="176.0" xml:space="preserve">        \  \  (  ) /  /</text><text class="ascii sprout sprout_winter_6" x="670" y="189.4" xml:space="preserve">         '-. '.__.' .-'</text><text class="ascii sprout sprout_winter_7" x="670" y="202.8" xml:space="preserve">            '-.__.-'</text><text class="ascii sprout sprout_winter_8" x="670" y="216.2" xml:space="preserve">               |</text><text class="ascii sprout sprout_winter_9" x="670" y="229.6" xml:space="preserve">          ___ /|\ ___</text><text class="ascii sprout sprout_winter_10" x="670" y="243.0" xml:space="preserve">             / | \</text><text class="ascii sprout sprout_winter_11" x="670" y="256.4" xml:space="preserve">               |</text><text class="ascii sprout sprout_winter_12" x="670" y="269.8" xml:space="preserve">               |</text><text class="ascii sprout sprout_winter_13" x="670" y="283.2" xml:space="preserve">              / \</text></g></g></g>
 </svg>
