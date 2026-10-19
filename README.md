@@ -20,7 +20,13 @@ I care about the details that make a project usable: visual quality, reproducibl
 | [Digital Garden ↗](https://digitalgarden.si/) · [Showcase](https://github.com/Aliciawque/digital-garden-showcase) | An interactive four-season 3D flower garden for the browser, built with Houdini assets and Three.js. |
 | [Visual Attraction](https://github.com/Aliciawque/visual-attraction) | An agent skill for evidence-based visual critique: composition, color, typography, UI and product presentation. |
 | [Personalized Agent Forge](https://github.com/Aliciawque/openclaw-personalized-agent-forge) | An OpenClaw skill collection for building creator, professional and fictional-character agents. |
+| [Clip Log Preflight](https://github.com/Aliciawque/clip-log-preflight) | A read-only Python CLI that checks episode clip logs against local camera and card folders before editing. |
 | [Alicia.dev](https://aliciawque.github.io/) · [Source](https://github.com/Aliciawque/Aliciawque.github.io) | My bilingual creative-coding blog, with ASCII-inspired interactions and an Astro front end. |
+
+## Recent experiments
+
+- [Codex + machine-skill](https://digitalgarden.si/blog/codex-machine-skill-threejs/) — Two Three.js pump simulations with solver checks, screenshots and downloadable demos. (2026-10-18)
+- [Houdini Solaris → OpenUSD → Three.js](https://digitalgarden.si/blog/openusd-threejs-usd-web-viewer/) — Tested formats, instancing, materials and loader limits. (2026-10-16)
 
 ## Merged open-source contributions
 
