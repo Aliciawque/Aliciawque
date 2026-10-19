@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="t d">
+<title id="t">Alicia — terminal intro</title>
+<desc id="d">A terminal types whoami, currently_exploring and ls ~/garden, revealing: artist × engineer; procedural worlds, real-time graphics and agent-assisted workflows; spring, summer, autumn and winter folders.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0A141B"/><stop offset="1" stop-color="#0D1820"/></linearGradient></defs>
+<style><![CDATA[
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;white-space:pre}
+.cur{animation:blink 1s steps(2,start) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.p0{opacity:0;animation:p0 16.0s infinite}
+@keyframes p0{0%,1.25%{opacity:0}1.31%,94.38%{opacity:1}100%{opacity:0}}
+.k0{animation:k0 16.0s infinite}
+@keyframes k0{0%,3.75%{transform:translateX(0);animation-timing-function:steps(6,end)}6.56%,94.38%{transform:translateX(54.0px)}100%{transform:translateX(0)}}
+.c0{opacity:0;animation:c0 16.0s infinite}
+@keyframes c0{0%,1.25%{opacity:0;transform:translateX(0)}1.31%,3.75%{opacity:1;transform:translateX(0);animation-timing-function:steps(6,end)}6.56%{opacity:1;transform:translateX(54.0px)}6.62%,100%{opacity:0}}
+.o1{opacity:0;animation:o1 16.0s infinite}
+@keyframes o1{0%,8.75%{opacity:0;transform:translateY(4px)}10.31%,94.38%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+.p2{opacity:0;animation:p2 16.0s infinite}
+@keyframes p2{0%,11.88%{opacity:0}11.94%,94.38%{opacity:1}100%{opacity:0}}
+.k2{animation:k2 16.0s infinite}
+@keyframes k2{0%,14.37%{transform:translateX(0);animation-timing-function:steps(19,end)}23.28%,94.38%{transform:translateX(171.0px)}100%{transform:translateX(0)}}
+.c2{opacity:0;animation:c2 16.0s infinite}
+@keyframes c2{0%,11.88%{opacity:0;transform:translateX(0)}11.94%,14.37%{opacity:1;transform:translateX(0);animation-timing-function:steps(19,end)}23.28%{opacity:1;transform:translateX(171.0px)}23.34%,100%{opacity:0}}
+.o3{opacity:0;animation:o3 16.0s infinite}
+@keyframes o3{0%,25.47%{opacity:0;transform:translateY(4px)}27.03%,94.38%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+.p4{opacity:0;animation:p4 16.0s infinite}
+@keyframes p4{0%,28.59%{opacity:0}28.66%,94.38%{opacity:1}100%{opacity:0}}
+.k4{animation:k4 16.0s infinite}
+@keyframes k4{0%,31.09%{transform:translateX(0);animation-timing-function:steps(11,end)}36.25%,94.38%{transform:translateX(99.0px)}100%{transform:translateX(0)}}
+.c4{opacity:0;animation:c4 16.0s infinite}
+@keyframes c4{0%,28.59%{opacity:0;transform:translateX(0)}28.66%,31.09%{opacity:1;transform:translateX(0);animation-timing-function:steps(11,end)}36.25%{opacity:1;transform:translateX(99.0px)}36.31%,100%{opacity:0}}
+.o5{opacity:0;animation:o5 16.0s infinite}
+@keyframes o5{0%,38.44%{opacity:0;transform:translateY(4px)}40.00%,94.38%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+.fin{opacity:0;animation:fin 16.0s infinite}
+@keyframes fin{0%,44.06%{opacity:0}44.12%,94.38%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}[class^=k]{transform:translateX(2000px)}[class^=o],[class^=p],.fin{opacity:1!important}}
+]]></style>
+<rect width="1000" height="250" rx="14" fill="url(#bg)"/>
+<rect x=".8" y=".8" width="998.4" height="248.4" rx="13" stroke="#31504C" stroke-opacity=".75" stroke-width="1.5" fill="none"/>
+<circle cx="30" cy="25" r="4.5" fill="#B6766F"/><circle cx="47" cy="25" r="4.5" fill="#D8AF6F"/><circle cx="64" cy="25" r="4.5" fill="#74BBA9"/>
+<text x="84" y="29" font-size="12" fill="#88AAAC">alicia@digitalgarden: ~</text>
+<text x="963" y="29" font-size="12" fill="#88AAAC" text-anchor="end">zsh · 100×6</text>
+<path d="M20 43 H980" stroke="#274047"/>
+<text class="p0" x="44" y="78" font-size="15" fill="#7FE5B3" xml:space="preserve" textLength="18.0" lengthAdjust="spacingAndGlyphs">$ </text>
+<text x="62.0" y="78" font-size="15" fill="#E6E8DF" xml:space="preserve" textLength="54.0" lengthAdjust="spacingAndGlyphs">whoami</text>
+<rect class="k0" x="62.0" y="63" width="66.0" height="21" fill="#0B161D"/>
+<rect class="c0" x="62.0" y="65" width="8" height="17" fill="#7FE5B3"/>
+<g class="o1"><text x="62.0" y="103" font-size="15" fill="#9AB4B3" xml:space="preserve" textLength="468.0" lengthAdjust="spacingAndGlyphs">artist × engineer  ·  Houdini → Three.js → AI agents</text></g>
+<text class="p2" x="44" y="128" font-size="15" fill="#7FE5B3" xml:space="preserve" textLength="18.0" lengthAdjust="spacingAndGlyphs">$ </text>
+<text x="62.0" y="128" font-size="15" fill="#E6E8DF" xml:space="preserve" textLength="171.0" lengthAdjust="spacingAndGlyphs">currently_exploring</text>
+<rect class="k2" x="62.0" y="113" width="183.0" height="21" fill="#0B161D"/>
+<rect class="c2" x="62.0" y="115" width="8" height="17" fill="#7FE5B3"/>
+<g class="o3"><text x="62.0" y="153" font-size="15" fill="#9AB4B3" xml:space="preserve" textLength="585.0" lengthAdjust="spacingAndGlyphs">procedural worlds / real-time graphics / agent-assisted workflows</text></g>
+<text class="p4" x="44" y="178" font-size="15" fill="#7FE5B3" xml:space="preserve" textLength="18.0" lengthAdjust="spacingAndGlyphs">$ </text>
+<text x="62.0" y="178" font-size="15" fill="#E6E8DF" xml:space="preserve" textLength="99.0" lengthAdjust="spacingAndGlyphs">ls ~/garden</text>
+<rect class="k4" x="62.0" y="163" width="111.0" height="21" fill="#0B161D"/>
+<rect class="c4" x="62.0" y="165" width="8" height="17" fill="#7FE5B3"/>
+<g class="o5"><text x="62.0" y="203" font-size="15" fill="#80DDAD" xml:space="preserve" textLength="9.0" lengthAdjust="spacingAndGlyphs">@</text><text x="80.0" y="203" font-size="15" fill="#80DDAD" xml:space="preserve" textLength="63.0" lengthAdjust="spacingAndGlyphs">spring/</text><text x="170.0" y="203" font-size="15" fill="#83C9FA" xml:space="preserve" textLength="9.0" lengthAdjust="spacingAndGlyphs">@</text><text x="188.0" y="203" font-size="15" fill="#83C9FA" xml:space="preserve" textLength="63.0" lengthAdjust="spacingAndGlyphs">summer/</text><text x="278.0" y="203" font-size="15" fill="#F4C371" xml:space="preserve" textLength="9.0" lengthAdjust="spacingAndGlyphs">@</text><text x="296.0" y="203" font-size="15" fill="#F4C371" xml:space="preserve" textLength="63.0" lengthAdjust="spacingAndGlyphs">autumn/</text><text x="386.0" y="203" font-size="15" fill="#D0DEE9" xml:space="preserve" textLength="9.0" lengthAdjust="spacingAndGlyphs">@</text><text x="404.0" y="203" font-size="15" fill="#D0DEE9" xml:space="preserve" textLength="63.0" lengthAdjust="spacingAndGlyphs">winter/</text><text x="494.0" y="203" font-size="15" fill="#597E80" xml:space="preserve" textLength="180.0" lengthAdjust="spacingAndGlyphs">4 seasons · 1 garden</text></g>
+<g class="fin"><text x="44" y="228" font-size="15" fill="#7FE5B3" xml:space="preserve" textLength="18.0" lengthAdjust="spacingAndGlyphs">$ </text><rect class="cur" x="62.0" y="215" width="8" height="17" fill="#7FE5B3"/></g>
+</svg>
