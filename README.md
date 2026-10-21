@@ -6,7 +6,7 @@ I build at the intersection of **computer graphics, intelligent tools, and inter
 
 I care about the details that make a project usable: visual quality, reproducible builds, clear boundaries, and evidence that a fix actually works.
 
-<p align="center"><b><a href="https://digitalgarden.si/">Digital Garden</a></b> · <b><a href="https://aliciawque.github.io/">Personal blog</a></b> · <b><a href="https://x.com/EmberAtelier">X / @EmberAtelier</a></b></p>
+<p align="center"><b><a href="https://digitalgarden.si/?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=profile">Digital Garden</a></b> · <b><a href="https://aliciawque.github.io/">Personal blog</a></b> · <b><a href="https://x.com/EmberAtelier">X / @EmberAtelier</a></b></p>
 
 <p align="center"><img src="./assets/divider-spring.svg" alt="" width="100%"></p>
 
@@ -14,7 +14,7 @@ I care about the details that make a project usable: visual quality, reproducibl
 
 | Project | What it does |
 | :--- | :--- |
-| [Digital Garden ↗](https://digitalgarden.si/) · [Showcase](https://github.com/Aliciawque/digital-garden-showcase) | An interactive four-season 3D flower garden for the browser, built with Houdini assets and Three.js. |
+| [Digital Garden ↗](https://digitalgarden.si/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [Showcase](https://github.com/Aliciawque/digital-garden-showcase) | An interactive four-season 3D flower garden for the browser, built with Houdini assets and Three.js. |
 | [Visual Attraction](https://github.com/Aliciawque/visual-attraction) | An agent skill for evidence-based visual critique: composition, color, typography, UI and product presentation. |
 | [Personalized Agent Forge](https://github.com/Aliciawque/openclaw-personalized-agent-forge) | An OpenClaw skill collection for building creator, professional and fictional-character agents. |
 | [Clip Log Preflight](https://github.com/Aliciawque/clip-log-preflight) | A read-only Python CLI that checks episode clip logs against local camera and card folders before editing. |
@@ -24,8 +24,8 @@ I care about the details that make a project usable: visual quality, reproducibl
 
 ## Recent experiments
 
-- [Codex + machine-skill](https://digitalgarden.si/blog/codex-machine-skill-threejs/) — Two Three.js pump simulations with solver checks, screenshots and downloadable demos. (2026-10-18)
-- [Houdini Solaris → OpenUSD → Three.js](https://digitalgarden.si/blog/openusd-threejs-usd-web-viewer/) — Tested formats, instancing, materials and loader limits. (2026-10-16)
+- [Codex + machine-skill](https://digitalgarden.si/blog/codex-machine-skill-threejs/?utm_source=github&utm_medium=referral&utm_campaign=profile) — Two Three.js pump simulations with solver checks, screenshots and downloadable demos. (2026-10-18)
+- [Houdini Solaris → OpenUSD → Three.js](https://digitalgarden.si/blog/openusd-threejs-usd-web-viewer/?utm_source=github&utm_medium=referral&utm_campaign=profile) — Tested formats, instancing, materials and loader limits. (2026-10-16)
 
 <p align="center"><img src="./assets/divider-autumn.svg" alt="" width="100%"></p>
 
@@ -56,6 +56,6 @@ Selected PRs **merged into other maintainers' repositories**. Each link goes to 
 
 我是 Alicia，一名关注 **程序化 3D、实时图形、AI Agent 与创意编程** 的技术艺术创作者。我喜欢用 Houdini、Three.js 和自动化工具创造可交互的数字世界，也参与开源项目的修复与改进。
 
-🌱 [体验数字花园](https://digitalgarden.si/) · 📝 [个人博客](https://aliciawque.github.io/) · ✦ [GitHub 项目](https://github.com/Aliciawque?tab=repositories)
+🌱 [体验数字花园](https://digitalgarden.si/?utm_source=github&utm_medium=referral&utm_campaign=profile) · 📝 [个人博客](https://aliciawque.github.io/) · ✦ [GitHub 项目](https://github.com/Aliciawque?tab=repositories)
 
 <p align="center"><img src="./assets/footer-garden.svg" alt="See you next season — an ASCII garden sways while petals and snow drift down" width="100%"></p>
